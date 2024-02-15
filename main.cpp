@@ -12,7 +12,9 @@ int main()
         std::cout << "2. Une soustraction\n";
         std::cout << "3. Une multiplication\n";
         std::cout << "4. Une division\n";
-        std::cout << "5. Aucune. Je veux partir\n";
+        std::cout << "5. Une racine caree\n";
+        std::cout << "6. Une puissance\n";
+        std::cout << "7. Aucune. Je veux partir\n";
         std::cin >> reponse;
         switch(reponse)
         {
@@ -29,6 +31,12 @@ int main()
                 division();
                 break;
             case 5:
+                racineCaree();
+                break;
+            case 6:
+                puissance();
+                break;
+            case 7:
                 std::cout << "Tres bien. Au revoir !\n";
                 end_program = true;
                 break;

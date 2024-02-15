@@ -7,5 +7,7 @@ void addition();
 void soustraction();
 void multiplication();
 void division();
+void racineCaree();
+void puissance();
 
 #endif // MATHS_HPP_INCLUDED

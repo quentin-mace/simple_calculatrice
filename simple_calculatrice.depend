@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1707981946 source:f:\documents\dev_projects\simple_calculatrice\maths.cpp
+	<iostream>
+
+1707981742 source:f:\documents\dev_projects\simple_calculatrice\main.cpp
+	<iostream>
+	"maths.hpp"
+
+1707981667 f:\documents\dev_projects\simple_calculatrice\maths.hpp
+	<iostream>
+
